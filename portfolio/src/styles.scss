@@ -26,15 +26,15 @@ h3.home {
 }
 
 h4 {
-  @apply text-xl md:text-3xl lg:text-4xl font-light tracking-wide;
+  @apply text-xl md:text-3xl lg:text-4xl font-extralight tracking-wide;
 }
 
 h4.home {
-  @apply text-white;
+  @apply text-gray-300 hover:text-white;
 }
 
 a.home {
-  @apply text-xl md:text-3xl lg:text-4xl font-light tracking-wide text-white;
+  @apply text-xl md:text-3xl lg:text-4xl font-extralight tracking-wide text-gray-300 hover:text-white;
 }
 
 h5 {

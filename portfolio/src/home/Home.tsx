@@ -11,18 +11,26 @@ function Home() {
         </div>
       </div>
       <div className="flex flex-row justify-center gap-6 md:gap-8 lg:gap-22 xl:gap-24">
-        <Link to="/about">
-          <h4 className="home">about</h4>
-        </Link>
-        <Link to="/about">
-          <h4 className="home">work</h4>
-        </Link>
-        <Link to="/about">
-          <h4 className="home">vision</h4>
-        </Link>
-        <a href="http://" target="_blank" rel="noreferrer" className="home">
-          writing
-        </a>
+        <div className="border-b border-gray-400 hover:border-white">
+          <Link to="/about">
+            <h4 className="home">about</h4>
+          </Link>
+        </div>
+        <div className="border-b border-gray-400 hover:border-white">
+          <Link to="/about">
+            <h4 className="home">work</h4>
+          </Link>
+        </div>
+        <div className="border-b border-gray-400 hover:border-white">
+          <Link to="/about">
+            <h4 className="home">vision</h4>
+          </Link>
+        </div>
+        <div className="border-b border-gray-400 hover:border-white">
+          <a href="http://" target="_blank" rel="noreferrer" className="home">
+            writing
+          </a>
+        </div>
       </div>
     </div>
   );
