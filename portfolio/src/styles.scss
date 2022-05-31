@@ -30,11 +30,11 @@ h4 {
 }
 
 h4.home {
-  @apply text-gray-300 hover:text-white;
+  @apply text-white opacity-90 hover:opacity-100;
 }
 
 a.home {
-  @apply text-xl md:text-3xl lg:text-4xl font-extralight tracking-wide text-gray-300 hover:text-white;
+  @apply text-xl md:text-3xl lg:text-4xl font-extralight tracking-wide text-white opacity-90 hover:opacity-100;
 }
 
 h5 {
