@@ -46,5 +46,9 @@ h5 {
 }
 
 p {
-  @apply text-base md:text-lg;
+  @apply text-base md:text-lg font-normal;
+}
+
+path.arrow-about {
+  @apply stroke-black hover:opacity-50;
 }
