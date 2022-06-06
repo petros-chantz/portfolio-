@@ -25,9 +25,9 @@ function Home() {
         className="flex flex-col items-center justify-center gap-2 mb-16 md:gap-6 h-5/6"
         style={titlesAnimation}
       >
-        <h1 className="home">petros chantzopoulos</h1>
+        <h1 className="text-white">petros chantzopoulos</h1>
         <div className="flex flex-row gap-5 md:gap-12 lg:gap-12">
-          <h5 className="home">creative technologist</h5>
+          <h5 className="text-white">creative technologist</h5>
           <svg
             width="15"
             height="15"
@@ -39,7 +39,7 @@ function Home() {
             <circle cx="7.5" cy="7.5" r="7.5" fill="white" />
           </svg>
 
-          <h5 className="home">design researcher</h5>
+          <h5 className="text-white">design researcher</h5>
         </div>
       </animated.div>
       <animated.div
@@ -48,17 +48,17 @@ function Home() {
       >
         <div className="border-b-2 border-white opacity-90 hover:opacity-100">
           <Link to="/about">
-            <h4 className="home">about</h4>
+            <h4 className="text-white opacity-90 hover:opacity-100">about</h4>
           </Link>
         </div>
         <div className="border-b-2 border-white opacity-90 hover:opacity-100">
           <Link to="/about">
-            <h4 className="home">work</h4>
+            <h4 className="text-white opacity-90 hover:opacity-100">work</h4>
           </Link>
         </div>
         <div className="border-b-2 border-white opacity-90 hover:opacity-100">
           <Link to="/about">
-            <h4 className="home">vision</h4>
+            <h4 className="text-white opacity-90 hover:opacity-100">vision</h4>
           </Link>
         </div>
         <div className="border-b-2 border-white opacity-90 hover:opacity-100">
