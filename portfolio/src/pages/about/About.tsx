@@ -1,4 +1,4 @@
-import HeaderPage from "../../components/Header";
+import HeaderPage from "../../components/HeaderPage";
 
 function About() {
   return (
@@ -37,13 +37,13 @@ function About() {
             </h6>
           </div>
           <p className="pt-5 leading-9">
-            As a UX Developer working in the IT department, I'm leading design
-            research initiatives examining and evaluating product experiences,
-            as well as inquiring new wishes and demands from our clients and
-            stakeholders. I’m heavily involved in the development of our
-            front-end web applications as well, working together with other
-            developers to deliver new product features and create new design
-            systems.
+            There, I'm leading design research initiatives by examining and
+            evaluating our product experiences, as well as inquiring new wishes
+            and demands from our clients and stakeholders. As a UX Developer,
+            I’m also heavily involved in the development of our front-end web
+            applications. I'm working together with other application developers
+            delivering new product features and creating new design systems for
+            upcoming projects.
           </p>
         </div>
       </div>
