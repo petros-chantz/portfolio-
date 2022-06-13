@@ -51,7 +51,7 @@ function Home() {
           ["work", "/work"],
           ["vision", "/vision"],
         ].map(([page, url]) => (
-          <div className="border-b-2 border-white opacity-90 hover:opacity-100">
+          <div className=" opacity-90 hover:opacity-100">
             <Link to={url}>
               <h4 className="text-white opacity-90 hover:opacity-100">
                 {page}
@@ -59,7 +59,7 @@ function Home() {
             </Link>
           </div>
         ))}
-        <div className="border-b-2 border-white opacity-90 hover:opacity-100">
+        <div className=" opacity-90 hover:opacity-100">
           <a
             href="https://medium.com/@petros.chantz"
             target="_blank"
