@@ -10,6 +10,7 @@
   }
 }
 
+//petros chantzopoulos title
 h1 {
   @apply text-3xl font-semibold md:text-5xl lg:text-7xl xl:text-8xl tracking-wide;
 }
@@ -22,10 +23,12 @@ h3 {
   @apply text-3xl md:text-5xl;
 }
 
+//about - work - vision - writing link titles
 h4 {
   @apply text-xl md:text-3xl lg:text-4xl font-extralight tracking-wide;
 }
 
+//creative technologist - design research title
 h5 {
   @apply text-base font-extralight md:text-2xl lg:text-4xl xl:text-5xl tracking-wide;
 }
@@ -38,10 +41,12 @@ h6 {
   @apply text-2xl md:text-3xl;
 }
 
+//a link for about page
 a.about {
   @apply underline text-black opacity-100 hover:opacity-70;
 }
 
+//a link for home page
 a.home {
   @apply text-xl md:text-3xl lg:text-4xl font-extralight tracking-wide text-white opacity-90 hover:opacity-100;
 }

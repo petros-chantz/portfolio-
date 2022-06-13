@@ -5,15 +5,15 @@ function Home() {
   const titlesAnimation = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
-    delay: 300,
+    delay: 400,
     config: {
-      duration: 1000,
+      duration: 1200,
     },
   });
   const linksAnimation = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
-    delay: 700,
+    delay: 800,
     config: {
       duration: 550,
     },
@@ -26,11 +26,11 @@ function Home() {
         style={titlesAnimation}
       >
         <h1 className="text-white">petros chantzopoulos</h1>
-        <div className="flex flex-row gap-5 md:gap-12 lg:gap-12">
+        <div className="flex flex-row gap-2 md:gap-8 lg:gap-16 xl:gap-18">
           <h5 className="text-white">creative technologist</h5>
           <svg
-            width="15"
-            height="15"
+            width="10"
+            height="10"
             viewBox="0 0 15 15"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,12 @@ function Home() {
           </div>
         ))}
         <div className="border-b-2 border-white opacity-90 hover:opacity-100">
-          <a href="http://" target="_blank" rel="noreferrer" className="home">
+          <a
+            href="https://medium.com/@petros.chantz"
+            target="_blank"
+            rel="noreferrer"
+            className="home"
+          >
             writing
           </a>
         </div>
