@@ -5,7 +5,7 @@ function Home() {
   const titlesAnimation = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
-    delay: 400,
+    delay: 1000,
     config: {
       duration: 1200,
     },
@@ -13,16 +13,16 @@ function Home() {
   const linksAnimation = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
-    delay: 800,
+    delay: 2200,
     config: {
-      duration: 550,
+      duration: 600,
     },
   });
 
   return (
     <div className="h-screen p-3 bg-black">
       <animated.div
-        className="flex flex-col items-center justify-center gap-2 mb-16 md:gap-6 h-5/6"
+        className="flex flex-col items-center justify-center gap-2 pt-20 mb-16 md:gap-6 h-5/6"
         style={titlesAnimation}
       >
         <h1 className="text-white">petros chantzopoulos</h1>
