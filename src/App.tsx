@@ -14,9 +14,9 @@ function App() {
       </Routes> */}
       <Home></Home>
       <About></About>
-      <Work></Work>
+      {/* <Work></Work>
       <Vision></Vision>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </>
   );
 }

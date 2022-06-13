@@ -46,21 +46,19 @@ function Home() {
         className="flex flex-row justify-center gap-6 md:gap-8 lg:gap-22 xl:gap-24"
         style={linksAnimation}
       >
-        <div className="border-b-2 border-white opacity-90 hover:opacity-100">
-          <Link to="/about">
-            <h4 className="text-white opacity-90 hover:opacity-100">about</h4>
-          </Link>
-        </div>
-        <div className="border-b-2 border-white opacity-90 hover:opacity-100">
-          <Link to="/about">
-            <h4 className="text-white opacity-90 hover:opacity-100">work</h4>
-          </Link>
-        </div>
-        <div className="border-b-2 border-white opacity-90 hover:opacity-100">
-          <Link to="/about">
-            <h4 className="text-white opacity-90 hover:opacity-100">vision</h4>
-          </Link>
-        </div>
+        {[
+          ["about", "/about"],
+          ["work", "/work"],
+          ["vision", "/vision"],
+        ].map(([page, url]) => (
+          <div className="border-b-2 border-white opacity-90 hover:opacity-100">
+            <Link to={url}>
+              <h4 className="text-white opacity-90 hover:opacity-100">
+                {page}
+              </h4>
+            </Link>
+          </div>
+        ))}
         <div className="border-b-2 border-white opacity-90 hover:opacity-100">
           <a href="http://" target="_blank" rel="noreferrer" className="home">
             writing

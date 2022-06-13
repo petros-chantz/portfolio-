@@ -1,5 +1,3 @@
-import HeaderPage from "../../components/HeaderPage";
-
 function Work() {
   return (
     <div className="flex flex-col p-8 pt-16 bg-white h-96 md:h-screen lg:py-20 md:px-16 lg:px-22">
