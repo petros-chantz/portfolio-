@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { useSpring, animated } from "react-spring";
 
 function Home() {
@@ -47,16 +47,16 @@ function Home() {
         style={linksAnimation}
       >
         {[
-          ["about", "/about"],
-          ["work", "/work"],
-          ["vision", "/vision"],
+          ["about", "#about"],
+          ["work", "#work"],
+          ["vision", "#vision"],
         ].map(([page, url]) => (
           <div className=" opacity-90 hover:opacity-100">
-            <Link to={url}>
+            <HashLink smooth to={url}>
               <h4 className="text-white opacity-90 hover:opacity-100">
                 {page}
               </h4>
-            </Link>
+            </HashLink>
           </div>
         ))}
         <div className=" opacity-90 hover:opacity-100">
@@ -75,3 +75,11 @@ function Home() {
 }
 
 export default Home;
+
+{
+  /* <NavLink to={url}>
+<h4 className="text-white opacity-90 hover:opacity-100">
+  {page}
+</h4>
+</NavLink> */
+}
