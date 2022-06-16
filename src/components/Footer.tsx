@@ -1,4 +1,4 @@
-function Footer() {
+const Footer = () => {
   return (
     <div className="flex flex-row p-8 bg-black md:px-16 lg:px-22">
       <h5 className="self-center w-3/4 text-white footer">
@@ -10,6 +10,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

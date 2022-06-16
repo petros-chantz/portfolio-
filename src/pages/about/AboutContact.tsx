@@ -1,4 +1,4 @@
-function AboutContact() {
+const AboutContact = () => {
   return (
     <div className="flex flex-col justify-end gap-5 pt-20 pb-20 ">
       <h3 className="contact">petros.chantz [at] gmail [dot] com</h3>
@@ -22,6 +22,6 @@ function AboutContact() {
       </a>
     </div>
   );
-}
+};
 
 export default AboutContact;

@@ -1,4 +1,4 @@
-function Content(props: any) {
+const Content = (props: any) => {
   return (
     <div className="flex flex-col p-8 pt-16 bg-white lg:py-20 md:px-16 lg:px-22">
       <h2 className={`self-start underline ${props.left}`}>
@@ -14,6 +14,6 @@ function Content(props: any) {
       </div>
     </div>
   );
-}
+};
 
 export default Content;

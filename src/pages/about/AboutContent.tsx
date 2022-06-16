@@ -1,4 +1,4 @@
-function AboutContent() {
+const AboutContent = () => {
   return (
     <div className="flex flex-col pt-10 pb-20 md:pl-20 lg:pl-32">
       <div className="flex justify-center pt-10 md:justify-start md:w-2/3 xl:w-2/3 drop-shadow-lg ">
@@ -44,6 +44,6 @@ function AboutContent() {
       </div>
     </div>
   );
-}
+};
 
 export default AboutContent;

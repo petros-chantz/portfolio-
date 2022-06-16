@@ -1,7 +1,7 @@
 import { HashLink } from "react-router-hash-link";
 import { useSpring, animated } from "react-spring";
 
-function Home() {
+export const Home = () => {
   const titlesAnimation = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
@@ -72,14 +72,6 @@ function Home() {
       </animated.div>
     </div>
   );
-}
+};
 
 export default Home;
-
-{
-  /* <NavLink to={url}>
-<h4 className="text-white opacity-90 hover:opacity-100">
-  {page}
-</h4>
-</NavLink> */
-}

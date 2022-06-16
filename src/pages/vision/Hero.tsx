@@ -1,4 +1,4 @@
-function Hero() {
+const Hero = () => {
   return (
     <div className="flex flex-col justify-center h-screen gap-20 pt-16 bg-black lg:py-20 md:px-16 lg:px-22">
       <h3 className="self-end text-white">vision</h3>
@@ -17,6 +17,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

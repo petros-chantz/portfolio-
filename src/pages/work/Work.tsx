@@ -1,4 +1,4 @@
-function Work() {
+const Work = () => {
   return (
     <div className="flex flex-col gap-20 p-8 pt-16 bg-white md:gap-0 md:h-screen lg:py-20 md:px-16 lg:px-22">
       <h3 className="self-start">work</h3>
@@ -16,6 +16,6 @@ function Work() {
       </div>
     </div>
   );
-}
+};
 
 export default Work;
