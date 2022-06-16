@@ -28,7 +28,7 @@ function AboutContent() {
               className="about"
               rel="noopener noreferrer"
             >
-              APS Group
+              APS Group.
             </a>
           </h6>
         </div>
@@ -41,20 +41,6 @@ function AboutContent() {
           delivering new product features and creating new design systems for
           upcoming projects.
         </p>
-
-        <div className="flex flex-col gap-10 pt-20">
-          <h6>Interests</h6>
-          <div className="grid grid-cols-3 gap-6 justify-items-stretch">
-            <p className="self-start">Ambiguous & Ubiquitous Computing</p>
-            <p>Smart Home Technologies</p>
-            <p>one</p>
-            <p className="">Augmented Reality</p>
-            <p>one</p>
-            <p>two</p>
-            <p>one</p>
-            <p>two</p>
-          </div>
-        </div>
       </div>
     </div>
   );

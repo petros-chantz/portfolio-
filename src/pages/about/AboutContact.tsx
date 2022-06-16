@@ -1,7 +1,7 @@
 function AboutContact() {
   return (
-    <div className="flex flex-col justify-end gap-5 pt-20 ">
-      <p className="contact">petros.chantz [at] gmail [dot] com</p>
+    <div className="flex flex-col justify-end gap-5 pt-20 pb-20 ">
+      <h3 className="contact">petros.chantz [at] gmail [dot] com</h3>
 
       <a
         href="http://"
@@ -9,7 +9,7 @@ function AboutContact() {
         rel="noopener noreferrer"
         className="about-contact"
       >
-        linkedIn
+        <h3>linkedIn</h3>
       </a>
 
       <a
@@ -18,7 +18,7 @@ function AboutContact() {
         rel="noopener noreferrer"
         className="about-contact"
       >
-        github
+        <h3>github</h3>
       </a>
     </div>
   );

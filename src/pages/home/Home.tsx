@@ -20,7 +20,7 @@ function Home() {
   });
 
   return (
-    <div className="h-screen p-3 bg-black">
+    <div className="h-screen p-3 bg-black" id="top">
       <animated.div
         className="flex flex-col items-center justify-center gap-2 pt-20 mb-16 md:gap-6 h-5/6"
         style={titlesAnimation}
@@ -48,7 +48,7 @@ function Home() {
       >
         {[
           ["about", "#about"],
-          ["work", "#work"],
+          ["work", "work"],
           ["vision", "#vision"],
         ].map(([page, url]) => (
           <div className=" opacity-90 hover:opacity-100">

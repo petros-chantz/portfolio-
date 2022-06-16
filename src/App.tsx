@@ -10,6 +10,7 @@ function App() {
     <>
       <Home></Home>
       <About></About>
+      <Work></Work>
     </>
   );
 }

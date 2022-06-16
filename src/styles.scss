@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl font-semibold italic md:text-4xl lg:text-5xl;
+  @apply text-3xl font-normal italic md:text-4xl lg:text-5xl;
 }
 
 h3 {
@@ -52,13 +52,13 @@ a.home {
 }
 
 a.about-contact {
-  @apply text-base font-extralight md:text-2xl self-end lg:text-4xl xl:text-5xl tracking-wide opacity-100 hover:opacity-60;
+  @apply self-end opacity-100 hover:opacity-70 underline;
 }
 
 p {
   @apply text-base md:text-lg font-normal leading-10 cursor-default select-none;
 }
 
-p.contact {
-  @apply text-base font-extralight md:text-2xl self-end lg:text-4xl xl:text-5xl tracking-wide  select-all;
+h3.contact {
+  @apply self-end select-all;
 }
