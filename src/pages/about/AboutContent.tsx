@@ -1,14 +1,18 @@
+const profile = require("./profile.jpg");
+
 const AboutContent = () => {
   return (
     <div className="flex flex-col pt-10 pb-20 md:pl-20 lg:pl-32">
-      <div className="flex justify-center pt-10 md:justify-start md:w-2/3 xl:w-2/3 drop-shadow-lg ">
+      <div className="flex justify-center pt-10 md:justify-start md:w-1/3 xl:w-1/3 drop-shadow-xxl">
         <img
-          src="https://images.pexels.com/photos/12079516/pexels-photo-12079516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          // https://images.pexels.com/photos/12079516/pexels-photo-12079516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+          src={profile}
           alt="petros"
+          className="drop-shadow-xxl rounded-2xl"
         />
       </div>
-      <div className="flex flex-col justify-center pt-10 md:justify-start md:w-2/3">
-        <p className="pb-10 leading-9">
+      <div className="flex flex-col justify-center pt-10 md:justify-end md:w-2/3">
+        <p className="self-end pb-10 leading-9">
           I am a Creative Technologist and Design Researcher, interested in the
           connection between the physical and digital world. I research,
           explore, prototype and develop new modalities of interactions using
