@@ -2,17 +2,16 @@ const profile = require("./profile.jpg");
 
 const AboutContent = () => {
   return (
-    <div className="flex flex-col pt-10 pb-20 md:pl-20 lg:pl-32">
-      <div className="flex justify-center pt-10 md:justify-start md:w-1/3 xl:w-1/3 drop-shadow-xxl">
-        <img
-          // https://images.pexels.com/photos/12079516/pexels-photo-12079516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-          src={profile}
-          alt="petros"
-          className="drop-shadow-xxl rounded-2xl"
-        />
-      </div>
-      <div className="flex flex-col justify-center pt-10 md:justify-end md:w-2/3">
-        <p className="self-end pb-10 leading-9">
+    <div className="flex flex-col gap-10 p-20 pb-10 lg:px-40">
+      <div className="flex flex-col gap-20 lg:flex-row">
+        <div className="flex justify-center w-2/3 pt-10 md:justify-start">
+          <img
+            src={profile}
+            alt="petros"
+            className="drop-shadow-2xl rounded-xl"
+          />
+        </div>
+        <p className="self-end w-2/3 leading-9">
           I am a Creative Technologist and Design Researcher, interested in the
           connection between the physical and digital world. I research,
           explore, prototype and develop new modalities of interactions using
@@ -22,32 +21,37 @@ const AboutContent = () => {
           is multidisciplinary and diverse as are the projects, topics and teams
           I work in.
         </p>
-        <div className="flex flex-col pt-10">
-          <h6>Currently,</h6>
-          <h6 className="about">
-            I work at{" "}
-            <a
-              href="https://www.theapsgroup.com/en/"
-              target="_blank"
-              className="about"
-              rel="noopener noreferrer"
-            >
-              APS Group.
-            </a>
-          </h6>
-        </div>
-        <p className="pt-5 leading-9">
-          There, I'm leading design research initiatives by examining and
-          evaluating our product experiences, as well as inquiring new wishes
-          and demands from our clients and stakeholders. As a UX Developer, I’m
-          also heavily involved in the development of our front-end web
-          applications. I'm working together with other application developers
-          delivering new product features and creating new design systems for
-          upcoming projects.
-        </p>
       </div>
+      <div className="flex flex-col pt-10">
+        <h6>Currently,</h6>
+        <h6 className="about">
+          I work at{" "}
+          <a
+            href="https://www.theapsgroup.com/en/"
+            target="_blank"
+            className="about"
+            rel="noopener noreferrer"
+          >
+            APS Group.
+          </a>
+        </h6>
+      </div>
+      <p className="leading-9">
+        There, I'm leading design research initiatives by examining and
+        evaluating our product experiences, as well as inquiring new wishes and
+        demands from our clients and stakeholders. As a UX Developer, I’m also
+        heavily involved in the development of our front-end web applications.
+        I'm working together with other application developers delivering new
+        product features and creating new design systems for upcoming projects.
+      </p>
     </div>
   );
 };
 
 export default AboutContent;
+
+// <div className="flex flex-col pt-10 pb-20 md:pl-20 lg:pl-52">
+
+// <div className="flex flex-col justify-center pt-10 md:justify-end md:w-2/3">
+
+// </div>
