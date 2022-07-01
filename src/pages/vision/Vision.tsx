@@ -6,7 +6,7 @@ const Vision = () => {
   return (
     <>
       <Hero />
-      {VisionData.map((statement) => (
+      {/* {VisionData.map((statement) => (
         <Content
           key={statement.index}
           direction={statement.direction}
@@ -15,7 +15,7 @@ const Vision = () => {
           photoAlt={statement.photoAlt}
           text={statement.text}
         />
-      ))}
+      ))} */}
     </>
   );
 };
